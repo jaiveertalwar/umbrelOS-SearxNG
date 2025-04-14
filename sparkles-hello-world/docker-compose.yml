@@ -1,14 +1,16 @@
 version: "3.7"
 
 services:
-
   app_proxy:
     environment:
-      # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: sparkles-hello-world_server_1
-      APP_PORT: 3000
-    
-  server:
-    image: getumbrel/community-app-store-hello-world:latest
-    user: "1000:1000"
-    init: true
+      APP_HOST: searxng
+      APP_PORT: 8080
+
+  searxng:
+    image: searxng/searxng:latest
+    restart: on-failure
+    stop_grace_period: 1m
+    environment:
+      BASE_URL: http://localhost:8080/
+    ports:
+      - "8080:8080"
