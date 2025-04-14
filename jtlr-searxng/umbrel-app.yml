@@ -1,6 +1,6 @@
 id: jtlr-searxng
 name: SearXNG
-version: "1.0.0"
+version: "1.0.1"
 releaseNotes: "Initial release of SearXNG for Umbrel."
 description: "A privacy-respecting metasearch engine."
 developer: "SearXNG Project"
@@ -11,3 +11,5 @@ support: "https://github.com/searxng/searxng/issues"
 port: 8080
 path: ""
 icon: "https://searxng.github.io/searxng/img/searxng-logo.svg"
+category: "Utilities"
+type: "service"
