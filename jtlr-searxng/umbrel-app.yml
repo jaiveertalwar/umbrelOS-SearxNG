@@ -10,6 +10,8 @@ repo: "https://github.com/searxng/searxng"
 support: "https://github.com/searxng/searxng/issues"
 port: 8080
 path: ""
-icon: "https://searxng.github.io/searxng/img/searxng-logo.svg"
+icon: "https://raw.githubusercontent.com/searxng/searxng/master/searx/static/themes/oscar/img/favicon.svg"
 category: "Utilities"
 type: "service"
+gallery:
+  - "https://raw.githubusercontent.com/searxng/searxng/master/searx/static/themes/oscar/img/searxng.svg"
