@@ -1,4 +1,4 @@
-id: searxng-searxng
+id: jtlr-searxng
 name: SearXNG
 version: "1.0.0"
 releaseNotes: "Initial release of SearXNG for Umbrel."
