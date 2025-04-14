@@ -1,12 +1,6 @@
 version: "3.9"
 
 services:
-  app_proxy:
-    environment:
-      APP_HOST: jtlr-searxng_searxng_1
-      APP_PORT: 8080
-      PROXY_AUTH_ADD: "false"
-
   searxng:
     image: searxng/searxng:latest
     container_name: jtlr-searxng_searxng_1
